@@ -1,0 +1,115 @@
+.parent {
+	width: 100px;
+}
+
+@keyframes fadein {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+img {
+	display: block;
+	width: 60%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	animation-name: fadein;
+	animation-duration: 2s;
+	margin-top: -5%;
+}
+
+h1 {
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+
+label {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 30px;
+	display: inline-block;
+	color: white;
+	animation-name: fadein;
+	animation-duration: 2s;
+	margin-left: auto;
+	margin-right: 10px;
+}
+
+input {
+	background-color: black;
+	border-radius: 0;
+	border: 2px solid white;
+	padding-left: 5px;
+	color: white;
+	height: 30px;
+	width: 250px;
+	font-family: 'Roboto', sans-serif;
+	animation-name: fadein;
+	animation-duration: 2s;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+select {
+	background-color: black;
+	border-radius: 0;
+	border: 2px solid white;
+	padding-left: 5px;
+	color: white;
+	height: 30px;
+	width: 260px;
+	font-family: 'Roboto', sans-serif;
+	animation-name: fadein;
+	animation-duration: 2s;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body {
+	background-color: rgb(11, 37, 85);
+}
+
+button {
+	transition-duration: 0.2s;
+	margin: auto;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: transparent;
+	border: 2px solid white;
+	border-radius: 0;
+	color: white;
+	padding: 20px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	animation-name: fadein;
+	animation-duration: 2s;
+}
+
+button:hover {
+	background-color: white;
+	border-radius: 0;
+	color: black;
+	cursor: pointer;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 30px;
+}
+
+td {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
